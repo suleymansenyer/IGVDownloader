@@ -1,0 +1,19 @@
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.navbar{
+    background-color: #8134af;
+}
+
+.search-div{
+    margin-top: 30px;
+}
+
+
+#first-section{
+    height: 100vh;
+}

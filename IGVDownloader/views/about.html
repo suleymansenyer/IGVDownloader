@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is short Code ?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+</head>
+<body>
+    {% include 'components/navbar.html' %}
+        <section id="first-section">
+            <div class="container-md search-div">
+                <p>Short Code instagramda kopyaladığınız video linklerinin içerisinde yer almaktadır. <br> Kırmızı alanlar short code örnekleridir.</p>
+                <ul>
+                    <li>https://www.instagram.com/reels/videos/<span style="color: red;">Cn20I9zoCvh</span>/</li>
+                    <li>https://www.instagram.com/p/<span style="color: red;">CmoxVfMoT7V</span>/</li>
+                </ul>
+            </div>
+        </section>
+
+    {% include 'components/footer.html' %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
